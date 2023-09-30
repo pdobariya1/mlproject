@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+#personal
+/catboost_info
+/mlruns
+/mlflow_info
+
 # Distribution / packaging
 .Python
 build/

@@ -6,7 +6,7 @@ import pickle
 import pymysql
 from dotenv import load_dotenv
 
-from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 from sklearn.metrics import r2_score
 
 from src.mlproject.logger import logging

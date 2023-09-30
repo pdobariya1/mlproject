@@ -115,6 +115,9 @@ class ModelTrainer():
             mlflow.set_registry_uri("https://dagshub.com/pdobariya582/mlproject.mlflow")
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
+            logging.info(mlflow.get_tracking_uri())
+            logging.info(f"{tracking_url_type_store}")
+
             # mlflow
             with mlflow.start_run():
 
